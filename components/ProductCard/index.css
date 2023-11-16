@@ -7,6 +7,10 @@
   box-shadow: 4px 4px 16px rgba(115, 115, 128, 0.24);
 }
 
+.card image{
+  z-index: 1;
+}
+
 .product-card-skeleton {
   height: 412px;
   width: 280px;
@@ -90,6 +94,27 @@
   display: flex;
   gap: 8px;
   align-items: center;
+}
+
+.premium {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  top: 10px;
+  margin-left: 5px;
+  position: absolute;
+  z-index: 3;
+  border-radius: 4px;
+  background: #000000;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+  gap: 10px;
+}
+
+.premium h1 {
+  color: white;
+  font-size: 12px;
 }
 
 @media (max-width: 1023px) {
