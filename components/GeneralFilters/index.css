@@ -1,0 +1,388 @@
+.side-filters-container {
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.filters-search-input-container {
+    width: 100%;
+    height: 48px;
+    border: 1px solid var(--gray-4);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.filters-search-input-container input {
+    outline: none;
+    border:none;
+    font-size: 14px;
+    color: var(--gray-5);
+}
+
+.location-filters-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.brand-cards-button-container {
+    display: flex;
+    max-width: 100%; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.brand-card-button {
+    width: 100px;
+    height: 74px;
+    border-radius: 16px;
+    border: 1px solid var(--gray-4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.brand-card-button p {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--gray-5);
+}
+
+/* When the checkbox is checked, add a black background */
+.brand-button-checkbox-container input:checked ~ .brand-card-button {
+    border: 1px solid var(--gray-8);
+}
+
+.show-brands-button {
+    width: 100%;
+    height: 40px;
+    background-color: var(--gray-1);
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.general-filters-divider {
+    width: 100%;
+    height: 1px;
+    background-color: var(--gray-4);
+}
+
+.filter-price-range-button {
+    height: 36px;
+    border-radius: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--gray-4);
+    font-family: var(--poppins);
+    font-weight: 600;
+    background-color: var(--gray-1);
+    cursor: pointer;
+}
+
+.filter-price-range-button-selected {
+    border: 1px solid var(--primary);
+    background-color: var(--primary);
+    color: var(--gray-1);
+}
+
+.initial-price-range-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.price-range-inputs-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    width: 100%;
+}
+
+.year-range-inputs-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -8px;
+}
+
+.filter-default-label {
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.filter-default-input {
+    outline: none !important;
+    padding: 12px 8px;
+    border: 1px solid var(--gray-4);
+    border-radius: 10px;
+    color: var(--gray-5);
+    width: 100%;
+} 
+
+.filter-default-input:focus {
+    border: 1px solid var(--primary);
+}
+
+.checkboxes-title {
+    margin-bottom: 16px;
+}
+
+.checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    color: var(--gray-5);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .checkbox-container input, .hidden-checkbox {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: var(--gray-1);
+    border: 1px solid var(--gray-8);
+    border-radius: 4px;
+  }
+  
+  /* When the checkbox is checked, add a black background */
+  .checkbox-container input:checked ~ .checkmark {
+    background-color: var(--gray-8);
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .checkbox-container .checkmark:after {
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 1px 1px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+.filters-list-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin: 32px 0;
+}
+
+.more-filters-button {
+    width: 147px;
+    height: 48px;
+    padding: 0px 16px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid var(--gray-4);
+    border-radius: 8px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.more-filters-button p {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.filters-search-input-container-list {
+    width: 200px;
+    height: 48px;
+    border: 1px solid var(--gray-4);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.filters-search-input-container-list input {
+    outline: none;
+    border:none;
+    width: 150px;
+    font-size: 14px;
+    color: var(--gray-5);
+}
+
+.filter-generic-input-container {
+    width: 100%;
+}
+
+.filter-generic-input-container div {
+    width: 90%;
+}
+
+.filter-generic-input-container-right div {
+    float: right;
+}
+
+.filter-generic-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 16px;
+    border: 1px solid var(--gray-4);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.filter-generic-button p {
+    font-size: 14px;
+}
+
+/* MODAL */
+
+.generic-filter-modal {
+    position: absolute;
+    z-index: 5;
+    display: none;
+    padding: 24px 16px;
+    background-color: var(--gray-1);
+    border: 1px solid var(--gray-4);
+    border-radius: 8px;
+    box-shadow: 4px 4px 16px 0px #79797940;
+}
+
+.generic-filter-modal-open {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.price-range-quick-filter-modal {
+    transform: translate(363px, 50px);
+}
+
+.price-range-quick-filter-modal-buttons-container {
+    display: flex;
+    gap: 8px;
+}
+
+.price-range-quick-filter-modal-buttons-container button {
+    padding: 0 12px;
+}
+
+.price-range-quick-filter-modal-inputs-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-range-quick-filter-modal-input-container {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+.price-range-quick-filter-modal-input-container div {
+    width: 100%;
+}
+
+.price-range-quick-filter-modal-input-container input {
+    max-width: 100%;
+}
+
+.color-quick-filter-modal {
+    gap: 0px;
+    width: 150px;
+    transform: translate(876px, 50px);
+}
+
+.shift-quick-filter-modal {
+    gap: 0px;
+    transform: translate(1025px, 50px);
+    width: 190px;
+}
+
+.general-filters-clear-filters {
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: -24px;
+    height: 70px;
+    background-color: var(--gray-1);
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.applyFiltersButton {
+    border: 1px solid var(--primary) !important;
+    background-color: var(--primary) !important;
+    color: var(--gray-1) !important;
+}
+
+.general-filters-clear-filters button {
+    width: 95%;
+    border: 1px solid var(--error);
+    color: var(--error);
+    background-color: var(--gray-1);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 18px 0;
+    border-radius: 12px;
+}
+
+
+.general-filters-clear-filters button:hover {
+    background-color: var(--error);
+    color: var(--gray-1);
+}
+
+@media (max-width: 1023px) {
+    .brand-cards-button-container { 
+      width: 312;
+      max-width: 312;
+    }
+    .brand-card-button {
+        width: 88px !important;
+    }
+
+    .general-filters-clear-filters {
+        bottom: 0;
+    }
+
+    .side-filters-container {
+        padding-bottom: 64px;
+    }
+}

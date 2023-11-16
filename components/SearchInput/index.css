@@ -1,0 +1,17 @@
+.searchInputContainer {
+    width: 250px;
+    height: 40px;
+    border: 1px solid var(--gray-4);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+}
+
+.searchInputContainer input {
+    outline: none;
+    border: none;
+    font-size: 14px;
+    width: 160px;
+    color: var(--gray-5);
+}

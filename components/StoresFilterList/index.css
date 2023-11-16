@@ -1,0 +1,123 @@
+.store-card-skeleton {
+  height: 473px;
+  width: 384px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 16px rgba(115, 115, 128, 0.24);
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+
+.skeleton-list-stores {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skeleton-container-stores {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 100%;
+}
+
+.skeleton-header-stores {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.skeleton-title-stores {
+  height: 52px;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 16px rgba(115, 115, 128, 0.24);
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+
+.skeleton-search-stores {
+  height: 48px;
+  width: 280px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 16px rgba(115, 115, 128, 0.24);
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: #EFEFEF;
+  }
+
+  100% {
+    background-color: #EFEFEF;
+  }
+}
+
+.section-header-stores {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 32px;
+  padding-bottom: 32px;
+}
+
+.inputHeaderContainerStores {
+  width: 280px;
+  height: 48px;
+  border: 1px solid #CED4DA;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.inputHeaderContainerStores div {
+  width: 90%;
+  outline: none;
+  border:none;
+  font-size: 14px;
+  color: #737380;
+}
+
+.inputHeaderContainerStores input {
+  outline: none;
+  border:none;
+  font-size: 14px;
+  width: 200px;
+  color: var(--gray-5);
+}
+
+.viewMoreButtonStores {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 10px;
+  width: 177px;
+  height: 48px;
+  border: 1px solid var(--primary);
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--primary);
+  cursor: pointer;
+  margin-bottom: 120px;
+}
+
+@media (max-width: 800px) {
+  .viewMoreButtonStores {
+    width: 100%;
+  }
+
+  .section-header-stores {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .inputHeaderContainerStores {
+    width: 100%;
+    margin-bottom: 32px;
+  }
+}

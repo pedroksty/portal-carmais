@@ -1,0 +1,133 @@
+.containerForm {
+  display: flex;
+  flex-direction: column;
+  margin-top: -200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.titleContactus {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  padding-bottom: 4px;
+}
+
+.subtitleContactus {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  max-width: 539px;
+  color: #FFFFFF;
+}
+
+.cardForm {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 24px;
+  width: 384px;
+  height: auto;
+  background: #FFFFFF;
+  box-shadow: 4px 4px 8px 8px rgba(196, 196, 196, 0.32);
+  border-radius: 8px;
+}
+
+.titleCardContactus {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #0B0B0B;
+}
+
+.subtitleCardContactus {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #737380;
+}
+
+.sendMessageButton {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 10px;
+  width: 336px;
+  height: 48px;
+  background: var(--primary);
+  border: 1px solid var(--primary);
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.storesListContactus {
+  display: flex;
+  flex-direction: column;
+  padding-top: 48px;
+}
+
+.headerList {
+  display: flex;
+}
+
+.headerContentList {
+  display: flex;
+  flex-direction: column;
+}
+
+.listTitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: #0B0B0B;
+}
+
+.listSubtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #737380;
+}
+
+@media (max-width: 800px) {
+  .titleContactus {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .subtitleContactus {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 312px;
+  }
+
+}

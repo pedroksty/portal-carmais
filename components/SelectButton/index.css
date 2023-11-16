@@ -1,0 +1,26 @@
+.select-button-container {
+    width: 100%;
+    height: 48px;
+    border: 1px solid var(--gray-4);
+    border-radius: 10px;
+    padding: 0px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.select-button-container-disabled {
+    background-color: #EFEFEF4D;
+    cursor: default;
+    color: var(--gray-4);
+}
+
+.select-button-container-disabled p {
+    color: #838383!important;
+}
+
+.select-button-container p {
+    color: var(--gray-8);
+    font-size: 14px;
+}
