@@ -1,0 +1,392 @@
+/* FOOTER */
+
+.footerContainer {
+  margin-top: 66px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 100%;
+}
+
+.preFooter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  height: 120px;
+  background: var(--primary);
+}
+
+.preFooterContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  height: 120px;
+  background: var(--primary);
+}
+
+.titleBoldWhite {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  color: #FFFFFF;
+  max-width: 478px;
+}
+
+.titleBoldBlack {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: #0B0B0B;
+  max-width: 232px;
+}
+
+.iconButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  gap: 8px;
+
+  width: 295.5px;
+  height: 64px;
+
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+
+.circleIcon {
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  width: 32px;
+  height: 32px;
+  background: var(--primary);
+  border-radius: 1000px;
+}
+
+.preFooterButtons {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 29px;
+  width: 100%;
+}
+
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+
+  width: 100%;
+  height: auto;
+}
+
+.footerFirstContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 16px 0px;
+  gap: 64px;
+
+  width: 100%;
+  height: 180px;
+}
+
+.footerSecondContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 38px;
+  width: 100%;
+  height: 64px;
+}
+
+.sideDivider {
+  height: 32px;
+  background-color: #CED4DA;
+  width: 1px;
+}
+
+.brandContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  padding: 0px;
+  gap: 120px;
+  width: 528px;
+  height: auto;
+}
+
+.quickLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 120px;
+  width: 528px;
+  height: auto;
+}
+
+.brandSocialMedia {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contactUs {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.linksBox {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+}
+
+.iconsBox {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 16px;
+  padding-top: 24px;
+}
+
+.circleSocialIcon {
+  border: 1px solid #CED4DA;
+  border-radius: 1000px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  width: 32px;
+  height: 32px;
+}
+
+.contactUsButton {
+  cursor: pointer;
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  gap: 10px;
+  width: 232px;
+  height: 40px;
+  background: var(--primary);
+  border: 1px solid var(--primary);
+  border-radius: 8px;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.titleLight {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #737380;
+}
+
+.linkText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #0B0B0B;
+  text-decoration: underline !important;
+}
+
+.footerDivider {
+  margin-top: 32px;
+  margin-bottom: 24px;
+  height: 1px;
+  background-color: #CED4DA;
+  width: 100%;
+}
+
+.footerTextLight {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  text-align: center;
+  color: #0B0B0B;
+  height: 18px;
+}
+
+.autocommerceFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 24px;
+  gap: 24px;
+  width: 100vw;
+  height: auto;
+  background: #F8F8F9;
+}
+
+.autocommerceText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #0B0B0B;
+}
+
+.labelMobileQuickLinks {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.mobileQuickLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-left: 16px;
+  padding-top: 32px;
+}
+
+@media (max-width: 800px) {
+  .preFooterButtons {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 29px;
+    width: 100%;
+  }
+
+  .autocommerceText {
+    text-align: center;
+  }
+
+  .preFooter {
+    height: 250px;
+    padding: 32px 24px;
+  }
+
+  .preFooterContent {
+    flex-direction: column;
+    height: 250px;
+    padding-top: 32px;
+  }
+
+  .titleBoldWhite {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+  }
+
+  .iconButton {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    width: 148px;
+    height: 114px;
+    background: #FFFFFF;
+    border-radius: 8px;
+  }
+
+  .columnBox {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .brandContent {
+    flex-direction: column;
+    gap: 0px;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+  }
+
+  .contactUs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .quickLinks {
+    flex-direction: column;
+  }
+
+  .footerFirstContent {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+  }
+
+  .iconsBox {
+    padding: 0;
+  }
+
+  .brandSocialMedia {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .contactUsButton {
+    width: 100%;
+  }
+
+  .footerDivider {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .textCNPJ {
+    padding-top: 48px;
+  }
+
+  .autocommerceFooter {
+    flex-direction: column-reverse;
+    gap: 8px;
+    padding: 16px;
+    height: auto;
+  }
+
+  .footerContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    width: 100%;
+    height: auto;
+  }
+}

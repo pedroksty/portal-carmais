@@ -1,0 +1,16 @@
+.banner-container-contact-us {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.banner-about-us {
+  width: 100%;
+  max-width: 1440px;
+}
+
+@media (max-width: 800px) {
+  .bannerContactUs {
+    height: 209px;
+  }
+}

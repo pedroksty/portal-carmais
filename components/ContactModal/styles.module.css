@@ -1,0 +1,35 @@
+.buttonToTalk {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 10px;
+  width: 107px;
+  height: 40px;
+  border: 1px solid #25D366;
+  border-radius: 8px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #25D366;
+}
+
+.textLight {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #737380;
+}
+
+.textBold {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  color: #0B0B0B;
+}

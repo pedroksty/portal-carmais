@@ -1,0 +1,147 @@
+.index-filters-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    transition: all 1000ms;
+}
+
+.index-filters-container h2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.index-filters-select-button-container {
+    display: flex;
+    gap: 16px;
+}
+
+.index-filters-select-button {
+    height: 36px;
+    width: 152px;
+    border-radius: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--gray-4);
+    font-family: var(--poppins);
+    font-weight: 600;
+    background-color: var(--gray-1);
+    cursor: pointer;
+}
+
+.index-filters-select-button-selected {
+    background-color: var(--primary);
+    color: var(--gray-1);
+}
+
+.filters-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.brand-cards-button-container {
+    display: flex;
+    max-width: 984px; 
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.brand-card-button {
+    width: 88px;
+    height: 74px;
+    border-radius: 16px;
+    border: 1px solid var(--gray-4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.brand-card-button p {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    color: var(--gray-5);
+}
+
+.brand-image {
+    height: auto;
+    width: 50px;
+}
+
+.car-figures-container {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.car-figure-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.car-figure {
+    cursor: pointer;
+}
+
+.car-figure:hover {
+    fill: #000000;
+}
+
+.price-range-container {
+    display: flex;
+    gap: 20px;
+}
+
+.price-range-button {
+    padding: 8px 12px;
+    width: 180px;
+    height: 40px;
+}
+
+@media (max-width: 1023px) {
+    .brand-card-button {
+        width: 88px !important;
+    }
+
+    .index-filters-container h2 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .index-filters-select-button-container {
+        max-width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .brand-cards-button-container {
+        justify-content: center;
+    }
+
+    .price-range-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .car-figures-container {
+        flex-direction: column;
+    }
+
+    .index-filters-select-button {
+        width: 145px;
+    }
+}

@@ -1,0 +1,43 @@
+.bannerImage {
+    border-radius: 8px;
+}
+
+.arrow-button {
+    position: absolute;
+    top: 70px;
+    height: 40px;
+    width: 40px;
+    background-color: var(--gray-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.arrow-button-left {
+    left: 40px;
+}
+
+.arrow-button-right {
+    right: 40px;
+}
+
+.glider-dots {
+    position: absolute;
+    bottom: -10px;
+    display: flex;
+    justify-content: center;
+    width: max-content;
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 12px;
+    background-color: var(--gray-1);
+    box-shadow: 4px 4px 16px 0px #BCBCBC40;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.glider-dot.active {
+    background-color: black;
+}

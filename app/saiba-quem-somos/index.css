@@ -1,0 +1,34 @@
+.skeleton-container-about {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 100%;
+}
+
+.skeleton-banner-about {
+  height: 304px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 4px 4px 16px rgba(115, 115, 128, 0.24);
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+
+.skeleton-title-about {
+  height: 52px;
+  width: 488px;
+  align-self: center;
+  border-radius: 8px;
+  box-shadow: 4px 4px 16px rgba(115, 115, 128, 0.24);
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: #EFEFEF;
+  }
+
+  100% {
+    background-color: #EFEFEF;
+  }
+}

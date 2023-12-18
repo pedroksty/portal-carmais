@@ -1,0 +1,86 @@
+.vehicles-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 32px;
+}
+
+.load-more-container {
+    margin: 64px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.load-more-container button {
+    color: var(--primary);
+    background-color: var(--gray-1);
+    border: 1px solid var(--primary);
+    border-radius: 8px;
+    width: 140px;
+    height: 40px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.found-vehicles-number {
+    font-size: 14px;
+}
+
+.list-order-select {
+    display: flex;
+    gap: 8px;
+    justify-content: flex-end;
+}
+
+.list-order-select span {
+    color: var(--gray-5);
+    font-size: 14px;
+}
+
+.list-order-select button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--gray-8);
+    font-size: 14px;
+    background: none;
+    border: none;
+    transform: translate(0, -10%);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.number-and-order-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.order-modal {
+    position: absolute;
+    z-index: 5;
+    display: none;
+    padding: 16px 16px;
+    background-color: var(--gray-1);
+    border: 1px solid var(--gray-4);
+    border-radius: 8px;
+    box-shadow: 4px 4px 16px 0px #79797940;
+    transform: translate(0, 20px);
+}
+
+.order-modal button {
+    font-weight: 400;
+}
+
+.order-modal-open {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+}
+
+.button-order {
+    height: 40px;
+}

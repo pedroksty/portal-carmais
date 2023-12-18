@@ -1,0 +1,12 @@
+.filter-default-input-currency {
+  outline: none !important;
+  padding: 12px 8px;
+  border: 1px solid var(--gray-4);
+  border-radius: 10px;
+  color: var(--gray-5);
+  width: 100%;
+} 
+
+.filter-default-input-currency:focus {
+  border: 1px solid var(--primary);
+}

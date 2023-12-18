@@ -1,0 +1,124 @@
+.skeleton-container-filter {
+  padding-top: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 100%;
+}
+
+.skeleton-header-filter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.skeleton-search-filter {
+  height: 48px;
+  width: 192px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 16px rgba(115, 115, 128, 0.24);
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+
+.skeleton-more-filter {
+  height: 48px;
+  width: 140px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 16px rgba(115, 115, 128, 0.24);
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+
+.skeleton-price-filter {
+  height: 48px;
+  width: 157px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 16px rgba(115, 115, 128, 0.24);
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+
+.skeleton-brand-filter {
+  height: 48px;
+  width: 172px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 16px rgba(115, 115, 128, 0.24);
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+
+.skeleton-category-filter {
+  height: 48px;
+  width: 141px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 16px rgba(115, 115, 128, 0.24);
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+
+.skeleton-color-filter {
+  height: 48px;
+  width: 124px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 16px rgba(115, 115, 128, 0.24);
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+
+.skeleton-transmission-filter {
+  height: 48px;
+  width: 191px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 16px rgba(115, 115, 128, 0.24);
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+
+.skeleton-list-filter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: #EFEFEF;
+  }
+
+  100% {
+    background-color: #EFEFEF;
+  }
+}
+
+@media (max-width: 800px) {
+  .skeleton-list-filter {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .skeleton-search-filter {
+    height: 48px;
+    width: 120px;
+  }
+
+  .skeleton-more-filter {
+    height: 48px;
+    width: 144px;
+  }
+
+  .skeleton-price-filter {
+    display: none;
+  }
+
+  .skeleton-brand-filter {
+    display: none;
+  }
+
+  .skeleton-category-filter {
+    display: none;
+  }
+
+  .skeleton-color-filter {
+    display: none;
+  }
+
+  .skeleton-transmission-filter {
+    display: none;
+  }
+}
