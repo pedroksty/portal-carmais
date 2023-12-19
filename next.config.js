@@ -19,6 +19,11 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'www.facebook.com',
         port: ''
+      },
+      {
+        protocol: 'https',
+        hostname: 'i.imgur.com',
+        port: ''
       }
     ]
   }
