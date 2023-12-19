@@ -14,7 +14,8 @@ const cardsStore = [
     SubTitulo: 'Av. Júlio Ventura, 200 - Aldeota, Fortaleza - CE, 60140-230',
     Telefone: '(85) 3391-6000',
     Wpp: '(85) 98126-3833',
-    Funcionamento: 'segunda a sexta 08h às 18h e sábado 08h às 15h'
+    Funcionamento: 'segunda a sexta 08h às 18h e sábado 08h às 15h',
+    Mapa: 'https://maps.app.goo.gl/tqc73MKcKfuAe2Ff6'
   },
 
   {
@@ -23,7 +24,8 @@ const cardsStore = [
     SubTitulo: 'Av. Washington Soares, 2055 - Edson Queiroz, Fortaleza - CE, 60811-341',
     Telefone: '(85) 3306-8686',
     Wpp: '(85) 98126-3833',
-    Funcionamento: 'segunda a sexta 08h às 18h e sábado 08h às 15h'
+    Funcionamento: 'segunda a sexta 08h às 18h e sábado 08h às 15h',
+    Mapa: 'https://maps.app.goo.gl/XiKn3n72yEJ6cgjm6'
   },
 
   {
@@ -32,7 +34,8 @@ const cardsStore = [
     SubTitulo: 'Av. Júlio Ventura, 100 - Aldeota, Fortaleza - CE, 60150-050',
     Telefone: '(85) 3306-8600',
     Wpp: '(85) 98126-3833',
-    Funcionamento: 'segunda a sexta 08h às 18h e sábado 08h às 13h'
+    Funcionamento: 'segunda a sexta 08h às 18h e sábado 08h às 13h',
+    Mapa: 'https://maps.app.goo.gl/snXwS4iUbGV2qacZA~'
   },
 
   {
@@ -41,7 +44,8 @@ const cardsStore = [
     SubTitulo: 'Av. Júlio Ventura, 101 - Aldeota, Fortaleza - CE, 60140-231',
     Telefone: '(85) 3306.8800',
     Wpp: '(85) 98126-3833',
-    Funcionamento: 'segunda à sexta-feira 08h às 18h e sábado 08h às 14h'
+    Funcionamento: 'segunda à sexta-feira 08h às 18h e sábado 08h às 14h',
+    Mapa: 'https://maps.app.goo.gl/qL4fQD8AJxXSjP2A7'
   },
 
   {
@@ -50,7 +54,8 @@ const cardsStore = [
     SubTitulo: 'Av. Barão de Studart, 1630 - Aldeota, Fortaleza - CE, 60120-001',
     Telefone: '(85) 3306-7700',
     Wpp: '(85) 98126-3833',
-    Funcionamento: 'Atualizar horário de Funcionamento: segunda à sexta-feira 08h às 18h e sábado 08h às 14h'
+    Funcionamento: 'Atualizar horário de Funcionamento: segunda à sexta-feira 08h às 18h e sábado 08h às 14h',
+    Mapa: 'https://maps.app.goo.gl/ofKu5z2etTjG1Ho89'
   },
 
   {
@@ -59,7 +64,8 @@ const cardsStore = [
     SubTitulo: 'Av. Júlio Ventura, 201 - Aldeota, Fortaleza - CE, 60140-231',
     Telefone: '(85) 3306-8889',
     Wpp: '(85) 98126-3833',
-    Funcionamento: 'segunda à sexta-feira 08h às 18h e sábado 08h às 14h'
+    Funcionamento: 'segunda à sexta-feira 08h às 18h e sábado 08h às 14h',
+    Mapa: 'https://maps.app.goo.gl/eJ94SGpWzWY9hCa46'
   },
 
   {
@@ -68,7 +74,8 @@ const cardsStore = [
     SubTitulo: 'Av. Barão de Studart, 345 - Aldeota, Fortaleza - CE, 60120-000',
     Telefone: '(85) 3306-8400',
     Wpp: '(85) 98126-3833',
-    Funcionamento: 'segunda à sexta-feira 08h às 18h e sábado 08h às 14h'
+    Funcionamento: 'segunda à sexta-feira 08h às 18h e sábado 08h às 14h',
+    Mapa: 'https://maps.app.goo.gl/1QnmNfHScHLkNgy57'
   },
 
   {
@@ -77,7 +84,8 @@ const cardsStore = [
     SubTitulo: 'Av. Santos Dumont, 6610 - Cocó, Fortaleza - CE, 60192-022',
     Telefone: '(85) 3306-8484',
     Wpp: '(85) 98126-3833',
-    Funcionamento: 'segunda à sexta-feira 08h às 18h e sábado 08h às 14h'
+    Funcionamento: 'segunda à sexta-feira 08h às 18h e sábado 08h às 14h',
+    Mapa: 'https://maps.app.goo.gl/D42zNAtYhfStD1Ft5'
   },
 
   {
@@ -86,7 +94,18 @@ const cardsStore = [
     SubTitulo: 'Av. Washington Soares, 2891 - Edson Queiroz, Fortaleza - CE, 60811-341',
     Telefone: '(85) 3306-8300',
     Wpp: '(85) 98126-3833',
-    Funcionamento: 'segunda à sexta-feira 08h às 18h e sábado 08h às 14h'
+    Funcionamento: 'segunda à sexta-feira 08h às 18h e sábado 08h às 14h',
+    Mapa: 'https://maps.app.goo.gl/NXrZfsNXELqpMSsz5'
+  },
+
+  {
+    Image: 'https://i.imgur.com/J21Dnb8.jpg',
+    Titulo: 'Honda Novaluz Cariri',
+    SubTitulo: 'Km3 - Av. Padre Cícero, 3017 - Triângulo, Juazeiro do Norte - CE, 63041-145',
+    Telefone: '(88) 3102.4200',
+    Wpp: '(85) 98126-3833',
+    Funcionamento: 'segunda à sexta-feira 08h às 18h e sábado 08h às 14h',
+    Mapa: 'https://maps.app.goo.gl/ccJ39cZQXRQc4LAM8'
   },
 
   {
@@ -95,7 +114,8 @@ const cardsStore = [
     SubTitulo: 'Av. Barão de Studart, 1846 B - Aldeota, Fortaleza - CE, 60415-510',
     Telefone: '(85) 3306-8889',
     Wpp: '(85) 98126-3833',
-    Funcionamento: 'segunda à sexta-feira 08h às 18h e sábado 08h às 14h'
+    Funcionamento: 'segunda à sexta-feira 08h às 18h e sábado 08h às 14h',
+    Mapa: 'https://maps.app.goo.gl/ofKu5z2etTjG1Ho89'
   },
   
 ]
@@ -141,7 +161,7 @@ export const StoreCard = ({ map_url}) => {
 
             <div className='link-map-store'>
               <Link
-                href={map_url}
+                href={item.Mapa}
                 target='_blank'
               >
                 Ver no mapa
