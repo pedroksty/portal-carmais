@@ -35,7 +35,7 @@ const cardsStore = [
     Telefone: '(85) 3306-8600',
     Wpp: '(85) 98126-3833',
     Funcionamento: 'segunda a sexta 08h às 18h e sábado 08h às 13h',
-    Mapa: 'https://maps.app.goo.gl/snXwS4iUbGV2qacZA~'
+    Mapa: 'https://maps.app.goo.gl/snXwS4iUbGV2qacZA'
   },
 
   {
@@ -55,7 +55,7 @@ const cardsStore = [
     Telefone: '(85) 3306-7700',
     Wpp: '(85) 98126-3833',
     Funcionamento: 'Atualizar horário de Funcionamento: segunda à sexta-feira 08h às 18h e sábado 08h às 14h',
-    Mapa: 'https://maps.app.goo.gl/ofKu5z2etTjG1Ho89'
+    Mapa: ''
   },
 
   {
@@ -115,7 +115,7 @@ const cardsStore = [
     Telefone: '(85) 3306-8889',
     Wpp: '(85) 98126-3833',
     Funcionamento: 'segunda à sexta-feira 08h às 18h e sábado 08h às 14h',
-    Mapa: 'https://maps.app.goo.gl/ofKu5z2etTjG1Ho89'
+    Mapa: 'https://maps.app.goo.gl/J1TpDyFBmSwNaij39'
   },
   
 ]
