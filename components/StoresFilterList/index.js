@@ -1,7 +1,7 @@
 'use client'
 
 import axios from 'axios';
-import stylesPage from '../../app/page.module.css'; 
+import stylesPage from '../../app/page.module.css';
 import { StoreCard } from '@/components/StoreCard';
 import { Search } from 'lucide-react';
 import './index.css'
@@ -20,7 +20,7 @@ const StoresList = () => {
   const [isMore, setIsMore] = useState(false)
 
   const fetchUnits = async () => {
-    const { data } = await axios.get(`${process.env.NEXT_PUBLIC_apiBaseUrl}/v1/groups/${process.env.NEXT_PUBLIC_apiChannel}/units`,  {
+    const { data } = await axios.get(`${process.env.NEXT_PUBLIC_apiBaseUrl}/v1/groups/${process.env.NEXT_PUBLIC_apiChannel}/units`, {
       headers: {
         Authorization: process.env.NEXT_PUBLIC_apiToken
       }
@@ -38,7 +38,7 @@ const StoresList = () => {
     if (!search.length) return data.entries
 
     const newList = data.entries.filter((item) => item.display_name.toLowerCase().includes(search.toLocaleLowerCase()))
-  
+
     return newList
   }
 
@@ -55,52 +55,39 @@ const StoresList = () => {
 
       {isLoading
         ? <div
-            style={{
-              display: 'flex',
-              flexDirection: 'row',
-              gap: '32px',
-              paddingBottom: '120px',
-              flexWrap: 'wrap'
-            }}
-          >
-            <StoreCardSkeleton />
-            <StoreCardSkeleton />
-            <StoreCardSkeleton />
-          </div> 
+          style={{
+            display: 'flex',
+            flexDirection: 'row',
+            gap: '32px',
+            paddingBottom: '120px',
+            flexWrap: 'wrap'
+          }}
+        >
+          <StoreCardSkeleton />
+          <StoreCardSkeleton />
+          <StoreCardSkeleton />
+        </div>
         : <><div
-            style={{
-              display: 'flex',
-              flexDirection: 'row',
-              gap: '32px',
-              paddingBottom: '36px',
-              flexWrap: 'wrap'
-            }}
-          >
-            {!isMore
-              ? filteredList().slice(0, 6).map((store, index) => (
-                  <StoreCard
-                    key={index}
-                    display_name={store.display_name}
-                    map_url={store.map_url}
-                    complete={store.complete}
-                    profile_image={store.item_image.url}
-                    item_phones={store.item_phones}
-                    item_hours={store.item_hours}
-                  />
-                ))
-              : filteredList().map((store, index) => (
-                  <StoreCard
-                    key={index}
-                    display_name={store.display_name}
-                    map_url={store.map_url}
-                    complete={store.complete}
-                    profile_image={store.item_image.url}
-                    item_phones={store.item_phones}
-                    item_hours={store.item_hours}
-                  />
-                ))
-            }
-          </div>
+          style={{
+            display: 'flex',
+            flexDirection: 'row',
+            gap: '32px',
+            paddingBottom: '36px',
+            flexWrap: 'wrap'
+          }}
+        >
+          {filteredList().slice(0, 1).map((store) => (
+            <StoreCard
+              display_name={store.display_name}
+              map_url={store.map_url}
+              complete={store.complete}
+              profile_image={store.item_image.url}
+              item_phones={store.item_phones}
+              item_hours={store.item_hours}
+            />
+          ))
+          }
+        </div>
 
           <div
             onClick={() => {
